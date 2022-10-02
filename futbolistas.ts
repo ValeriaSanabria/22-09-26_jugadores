@@ -14,7 +14,7 @@ export class Futbolistas extends Personal {
         this.numCamiseta = pCamiseta
     }
 
-    public getPosicion() {
+    public getPosicion(){
         return this.posicion;
     }
 
