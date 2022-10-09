@@ -2,11 +2,9 @@ import {
     Personal
 } from "./personal"
 
-export class Futbolistas extends Personal {
-
+export class Futbolista extends Personal {
     protected posicion: string;
     protected numCamiseta: number;
-
 
     constructor(pNombre: string, pEdad: number, pAntiguedad: number, pPosicion: string, pCamiseta: number) {
         super(pNombre, pEdad, pAntiguedad);
@@ -29,5 +27,4 @@ export class Futbolistas extends Personal {
     public setCamiseta(pCamiseta: number): void {
         this.numCamiseta = pCamiseta;
     }
-
 }
