@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var futbolistas_1 = require("./futbolistas");
+var entrenador_1 = require("./entrenador");
+var futbolista1 = new futbolistas_1.Futbolistas("Juan Perez", 25, 3, "Delantero", 9);
+var futbolista2 = new futbolistas_1.Futbolistas("Jose Diaz", 30, 5, "Defensa", 3);
+var futbolista3 = new futbolistas_1.Futbolistas("Guillermo Lopez", 27, 4, "Centro", 15);
+var listaDeJugadores = [futbolista1, futbolista2, futbolista3];
+console.log("El jugador " + futbolista1.getNombre() + " juega en la posicion de " + futbolista1.getPosicion());
+var entrenador1 = new entrenador_1.Entrenador("Elias Gonzalez", 50, 25, "Director Tecnico");
+console.log("El entrenador " + entrenador1.getNombre() + " entrena a " + listaDeJugadores[1].getNombre());

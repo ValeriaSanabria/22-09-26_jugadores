@@ -8,13 +8,13 @@ export class Futbolistas extends Personal {
     protected numCamiseta: number;
 
 
-    constructor(pNombre:string, pEdad:number, pAntiguedad:number, pPosicion:string, pCamiseta:number) {
-        super(pNombre,pEdad,pAntiguedad);
+    constructor(pNombre: string, pEdad: number, pAntiguedad: number, pPosicion: string, pCamiseta: number) {
+        super(pNombre, pEdad, pAntiguedad);
         this.posicion = pPosicion;
         this.numCamiseta = pCamiseta
     }
 
-    public getPosicion(){
+    public getPosicion() {
         return this.posicion;
     }
 
