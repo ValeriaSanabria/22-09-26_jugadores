@@ -1,12 +1,11 @@
 import {
-    Futbolistas
-} from "./futbolistas";
+    Futbolista
+} from "./futbolista";
 import {
     Personal
 } from "./personal";
 
 export class Entrenador extends Personal {
-
     protected contrato: string;
 
     constructor(pNombre: string, pEdad: number, pAntiguedad: number, pContrato: string) {
@@ -21,5 +20,4 @@ export class Entrenador extends Personal {
     public setContrato(pContrato: string): void {
         this.contrato = pContrato;
     }
-
 }

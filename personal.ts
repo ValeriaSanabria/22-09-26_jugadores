@@ -1,5 +1,4 @@
 export class Personal {
-
     protected nombreApellido: string;
     protected edad: number;
     protected antiguedad: number;
@@ -33,5 +32,4 @@ export class Personal {
     public setAntiguedad(pAntiguedad: number): void {
         this.antiguedad = pAntiguedad;
     }
-
 }
